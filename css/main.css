@@ -25,12 +25,12 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 .card-img img {
   display: block;
   width: 100%;
   width: 50px;
 }
-
 
 .card-img {
   display: block;
@@ -46,14 +46,15 @@ ul {
   font-size: 1.5rem;
   margin: 0;
 }
-.card-body{
+.card-body {
   margin-top: 1.5em;
   margin-left: .5em;
 }
-.card-body p{
+.card-body p {
   margin: 0;
   margin-bottom: 1em;
 }
+
 .cards {
   margin: 0;
   padding: 0;
@@ -61,10 +62,13 @@ ul {
   flex-direction: column;
   list-style-type: none;
 }
+
 @media only screen and (min-width: 25em) {
 
-.card-body{
-  margin-top: .8em;
+  .card-body{
+    margin-top: .8em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -74,30 +78,28 @@ ul {
     line-height: 1.4;
   }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-}
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
 
 .card-img img {
   width: 33.333%;
   }
+
 }
-
-
 @media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
     line-height: 1.5;
-
   }
 
+}
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
-
   }
 
   .card-img {
